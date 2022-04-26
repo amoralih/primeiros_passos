@@ -5,6 +5,7 @@ import (
 	"modulo/auxiliar"
 
 	"github.com/badoux/checkmail"
+	//"github.com/badoux/checkmail"
 )
 
 func main() {

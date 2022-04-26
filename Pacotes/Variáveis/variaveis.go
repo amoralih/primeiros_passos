@@ -1,6 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
 	var aprendo string = "aprendo"
-	fmt.Printnl(aprendo)
+	fmt.Println(aprendo)
 }
