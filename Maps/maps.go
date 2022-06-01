@@ -10,6 +10,12 @@ func main() {
 
 	fmt.Println(usuario["nome"])
 
-	usuario2
-
+	usuario2 := map[string]string{
+		"nome": {
+			"primeiro": "Cristine",
+			"ultimo": "Barbosa",
+		}		
+	}
+	fmt.Println(usuario2)
 }
+
