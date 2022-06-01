@@ -10,12 +10,18 @@ func main() {
 
 	fmt.Println(usuario["nome"])
 
-	usuario2 := map[string]string{
+	usuario2 := map[string]map[string]string{
 		"nome": {
 			"primeiro": "Cristine",
 			"ultimo": "Barbosa",
-		}		
+		},
+		"curso":{
+			"nome": "Engenharia de Software",
+			"campus" : "Campus 2",
+		},
 	}
 	fmt.Println(usuario2)
-}
+	delete(usuario2, "nome")
+	fmt.Println(usuario2)
 
+}
